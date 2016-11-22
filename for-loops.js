@@ -1,5 +1,7 @@
-var counter = 5;
 
-for (var i = 0; i > 120 ;i++) {
+for (var counter = 5; counter < 120 ; counter+=10) {
 	console.log(counter);
 }
+
+
+
