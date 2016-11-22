@@ -77,3 +77,31 @@ var presidents = ["George Washington",
 for (var i = 1; i < presidents.length + 1; i++){
 	console.log("President #" + i + " was " + presidents[i-1]);
 }
+
+/* Object iteration
+
+Use can use another kind of for loop to iterate over objects. Iterate 
+over the object below and use console.log() to output the names of 
+the keys in the object.
+*/
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (var property in antSpecies) {
+	console.log(property);
+} 
+
+/* I need to practice with this for loop in order to truly understand 
+how it works */
